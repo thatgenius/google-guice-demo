@@ -8,6 +8,6 @@ public class DependingClass {
     private Dependency dependency;
 
     public void test() {
-        System.out.println(String.format("%s world!", dependency.greet()));
+        System.out.println(String.format("%s world!", dependency.getGreetingLine()));
     }
 }
